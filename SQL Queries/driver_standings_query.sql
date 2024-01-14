@@ -13,7 +13,7 @@ CREATE TABLE driver_standings (
 
 SELECT * FROM driver_standings;
 
-COPY driver_standings FROM 'C:\Users\balde\OneDrive\Desktop\Personal Project\Formula_1\datasets\driver_standings.csv' WITH CSV HEADER DELIMITER ',';
+COPY driver_standings FROM 'C:\Users\ArshiaAchar\Desktop\DS_projects\Formula_1\datasets\driver_standings.csv' WITH CSV HEADER DELIMITER ',';
 
 SELECT * FROM driver_standings;
 

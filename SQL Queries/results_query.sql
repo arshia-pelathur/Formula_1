@@ -26,7 +26,7 @@ CREATE TABLE results (
 SELECT * FROM results;
 
 
-COPY results FROM 'C:\Users\balde\OneDrive\Desktop\Personal Project\Formula_1\datasets\results.csv' WITH CSV HEADER DELIMITER ',';
+COPY results FROM 'C:\Users\ArshiaAchar\Desktop\DS_projects\Formula_1\datasets\results.csv' WITH CSV HEADER DELIMITER ',';
 
 
 -- ERROR:  invalid input syntax for type numeric: "\N"
@@ -37,13 +37,13 @@ ALTER COLUMN milliseconds TYPE text,
 ALTER COLUMN fastestLap  TYPE text,
 ALTER COLUMN rank		  TYPE text
 
-COPY results FROM 'C:\Users\balde\OneDrive\Desktop\Personal Project\Formula_1\datasets\results.csv' WITH CSV HEADER DELIMITER ',';
+COPY results FROM 'C:\Users\ArshiaAchar\Desktop\DS_projects\Formula_1\datasets\results.csv' WITH CSV HEADER DELIMITER ',';
 
 ALTER TABLE results 
 ALTER COLUMN position TYPE text,
 ALTER COLUMN number TYPE text
 
-COPY results FROM 'C:\Users\balde\OneDrive\Desktop\Personal Project\Formula_1\datasets\results.csv' WITH CSV HEADER DELIMITER ',';
+COPY results FROM 'C:\Users\ArshiaAchar\Desktop\DS_projects\Formula_1\datasets\results.csv' WITH CSV HEADER DELIMITER ',';
 
 SELECT * FROM results;
 

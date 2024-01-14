@@ -14,7 +14,7 @@ CREATE TABLE pit_stops (
 SELECT * FROM pit_stops;
 
 
-COPY pit_stops FROM 'C:\Users\balde\OneDrive\Desktop\Personal Project\Formula_1\datasets\pit_stops.csv' WITH CSV HEADER DELIMITER ',';
+COPY pit_stops FROM 'C:\Users\ArshiaAchar\Desktop\DS_projects\Formula_1\datasets\pit_stops.csv' WITH CSV HEADER DELIMITER ',';
 
 
 -- ERROR:  invalid input syntax for type numeric: "16:44.718"
@@ -23,7 +23,7 @@ COPY pit_stops FROM 'C:\Users\balde\OneDrive\Desktop\Personal Project\Formula_1\
 ALTER TABLE pit_stops 
 ALTER COLUMN duration TYPE text;
 
-COPY pit_stops FROM 'C:\Users\balde\OneDrive\Desktop\Personal Project\Formula_1\datasets\pit_stops.csv' WITH CSV HEADER DELIMITER ',';
+COPY pit_stops FROM 'C:\Users\ArshiaAchar\Desktop\DS_projects\Formula_1\datasets\pit_stops.csv' WITH CSV HEADER DELIMITER ',';
 
 SELECT * FROM pit_stops;
 

@@ -14,7 +14,7 @@ CREATE TABLE circuits (
 
 SELECT * FROM circuits;
 
-COPY circuits FROM 'C:\Users\balde\OneDrive\Desktop\Personal Project\Formula_1\datasets\circuits.csv' WITH CSV HEADER DELIMITER ',';
+COPY circuits FROM 'C:\Users\ArshiaAchar\Desktop\DS_projects\Formula_1\datasets\circuits.csv' WITH CSV HEADER DELIMITER ',';
 
 --ERROR:  invalid input syntax for type numeric: "\N"
 --CONTEXT:  COPY circuits, line 24, column alt: "\N" 
@@ -24,7 +24,7 @@ ALTER COLUMN alt TYPE text;
 
 SELECT * FROM circuits;
 
-COPY circuits FROM 'C:\Users\balde\OneDrive\Desktop\Personal Project\Formula_1\datasets\circuits.csv' WITH CSV HEADER DELIMITER ',';
+COPY circuits FROM 'C:\Users\ArshiaAchar\Desktop\DS_projects\Formula_1\datasets\circuits.csv' WITH CSV HEADER DELIMITER ',';
 
 SELECT * FROM circuits;
 

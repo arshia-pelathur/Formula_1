@@ -8,7 +8,7 @@ CREATE TABLE seasons (
 
 SELECT * FROM seasons;
 
-COPY seasons FROM 'C:\Users\balde\OneDrive\Desktop\Personal Project\Formula_1\datasets\seasons.csv' WITH CSV HEADER DELIMITER ',';
+COPY seasons FROM 'C:\Users\ArshiaAchar\Desktop\DS_projects\Formula_1\datasets\seasons.csv' WITH CSV HEADER DELIMITER ',';
 
 SELECT * FROM seasons;
 

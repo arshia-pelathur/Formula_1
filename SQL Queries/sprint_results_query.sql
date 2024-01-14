@@ -24,7 +24,7 @@ CREATE TABLE sprint_results (
 SELECT * FROM sprint_results;
 
 
-COPY sprint_results FROM 'C:\Users\balde\OneDrive\Desktop\Personal Project\Formula_1\datasets\sprint_results.csv' WITH CSV HEADER DELIMITER ',';
+COPY sprint_results FROM 'C:\Users\ArshiaAchar\Desktop\DS_projects\Formula_1\datasets\sprint_results.csv' WITH CSV HEADER DELIMITER ',';
 
 
 ALTER TABLE sprint_results 

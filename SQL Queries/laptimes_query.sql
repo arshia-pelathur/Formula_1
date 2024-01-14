@@ -12,7 +12,7 @@ CREATE TABLE laptimes (
 
 SELECT * FROM laptimes;
 
-COPY laptimes FROM 'C:\Users\balde\OneDrive\Desktop\Personal Project\Formula_1\datasets\lap_times.csv' WITH CSV HEADER DELIMITER ',';
+COPY laptimes FROM 'C:\Users\ArshiaAchar\Desktop\DS_projects\Formula_1\datasets\lap_times.csv' WITH CSV HEADER DELIMITER ',';
 
 SELECT * FROM laptimes;
 

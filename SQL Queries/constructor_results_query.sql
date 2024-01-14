@@ -11,7 +11,7 @@ CREATE TABLE constructor_results (
 
 SELECT * FROM constructor_results;
 
-COPY constructor_results FROM 'C:\Users\balde\OneDrive\Desktop\Personal Project\Formula_1\datasets\constructor_results.csv' WITH CSV HEADER DELIMITER ',';
+COPY constructor_results FROM 'C:\Users\ArshiaAchar\Desktop\DS_projects\Formula_1\datasets\constructor_results.csv' WITH CSV HEADER DELIMITER ',';
 
 SELECT * FROM constructor_results;
 

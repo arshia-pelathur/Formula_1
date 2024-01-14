@@ -16,7 +16,7 @@ CREATE TABLE drivers (
 SELECT * FROM drivers;
 
 
-COPY drivers FROM 'C:\Users\balde\OneDrive\Desktop\Personal Project\Formula_1\datasets\drivers.csv' WITH CSV HEADER DELIMITER ',';
+COPY drivers FROM 'C:\Users\ArshiaAchar\Desktop\DS_projects\Formula_1\datasets\drivers.csv' WITH CSV HEADER DELIMITER ',';
 
 --ERROR:  invalid input syntax for type numeric: "\N"
 --CONTEXT:  COPY drivers, line 3, column number: "\N" 
@@ -24,7 +24,7 @@ COPY drivers FROM 'C:\Users\balde\OneDrive\Desktop\Personal Project\Formula_1\da
 ALTER TABLE drivers
 ALTER COLUMN number TYPE text;
 
-COPY drivers FROM 'C:\Users\balde\OneDrive\Desktop\Personal Project\Formula_1\datasets\drivers.csv' WITH CSV HEADER DELIMITER ',';
+COPY drivers FROM 'C:\Users\ArshiaAchar\Desktop\DS_projects\Formula_1\datasets\drivers.csv' WITH CSV HEADER DELIMITER ',';
 
 SELECT * FROM drivers;
 

@@ -14,7 +14,7 @@ CREATE TABLE constructor_standings (
 SELECT * FROM constructor_standings;
 
 
-COPY constructor_standings FROM 'C:\Users\balde\OneDrive\Desktop\Personal Project\Formula_1\datasets\constructor_standings.csv'	WITH CSV HEADER DELIMITER ','
+COPY constructor_standings FROM 'C:\Users\ArshiaAchar\Desktop\DS_projects\Formula_1\datasets\constructor_standings.csv'	WITH CSV HEADER DELIMITER ','
 
 SELECT * FROM constructor_standings;
 
